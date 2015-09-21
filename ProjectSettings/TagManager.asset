@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DestroyTrigger
+  - AudioController
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Dead
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: bg
+    uniqueID: 922773177
+    locked: 0
+  - name: fish
+    uniqueID: 2440843259
+    locked: 0
+  - name: water
+    uniqueID: 2226978509
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: arrow
+    uniqueID: 3151430969
+    locked: 0
+  - name: tower
+    uniqueID: 3904596605
+    locked: 0
+  - name: cog
+    uniqueID: 2627781669
+    locked: 0
+  - name: Front
+    uniqueID: 3543691829
+    locked: 0
+  - name: UI
+    uniqueID: 612212925
+    locked: 0
