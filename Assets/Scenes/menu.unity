@@ -578,7 +578,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
       propertyPath: levels.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 453002, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -676,25 +676,26 @@ Prefab:
       propertyPath: playOtherModeButton
       value: 
       objectReference: {fileID: 482904751}
-    - target: {fileID: 11423276, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
-      propertyPath: thisSceneInt
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
-      propertyPath: levels.Array.data[0].id
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
       propertyPath: levels.Array.data[1].id
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
       propertyPath: levels.Array.data[2].name
-      value: Test 1
+      value: Test 2P
       objectReference: {fileID: 0}
     - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
       propertyPath: levels.Array.data[2].id
-      value: 3
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
+      propertyPath: levels.Array.data[2].img
+      value: 
+      objectReference: {fileID: 21300000, guid: 69e6bb51c4f40694491d58a5cd9f6986,
+        type: 3}
+    - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
+      propertyPath: levels.Array.data[2].enabledAI
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
       propertyPath: levels.Array.data[2].enabled2players
@@ -702,12 +703,26 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
       propertyPath: levels.Array.data[3].name
-      value: Menu
+      value: Placeholder
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 11470930, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
-    - {fileID: 11482682, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
-    - {fileID: 11485806, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
+    - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
+      propertyPath: levels.Array.data[3].id
+      value: 9999
+      objectReference: {fileID: 0}
+    - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
+      propertyPath: levels.Array.data[3].img
+      value: 
+      objectReference: {fileID: 21300000, guid: 69e6bb51c4f40694491d58a5cd9f6986,
+        type: 3}
+    - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
+      propertyPath: levels.Array.data[3].enabled2players
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11421136, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
+      propertyPath: levels.Array.data[3].otherMode
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a6a9d9d0b4337f448fce78e89fe09f4, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &368870304
@@ -2752,7 +2767,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2902,7 +2917,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3804,7 +3819,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

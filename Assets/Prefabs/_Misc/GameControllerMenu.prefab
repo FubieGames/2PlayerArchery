@@ -8,9 +8,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 453002}
-  - 114: {fileID: 11485806}
-  - 114: {fileID: 11482682}
-  - 114: {fileID: 11470930}
   - 114: {fileID: 11479946}
   - 114: {fileID: 11423276}
   - 114: {fileID: 11421136}
@@ -47,27 +44,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levels:
   - name: Two Towers
-    id: 1
+    id: 2
     img: {fileID: 21300000, guid: 042ed0805db7bfa4e80f5a10a9b3f005, type: 3}
     enabledAI: 1
     enabled2players: 1
     otherMode: 0
   - name: Test AI
-    id: 2
+    id: 3
     img: {fileID: 21300000, guid: 69e6bb51c4f40694491d58a5cd9f6986, type: 3}
     enabledAI: 1
-    enabled2players: 0
-    otherMode: 0
-  - name: Test 1
-    id: 3
-    img: {fileID: 0}
-    enabledAI: 0
-    enabled2players: 1
-    otherMode: 0
-  - name: Menu
-    id: 0
-    img: {fileID: 0}
-    enabledAI: 0
     enabled2players: 0
     otherMode: 0
 --- !u!114 &11423276
@@ -109,19 +94,6 @@ MonoBehaviour:
   aiVsAIButton: {fileID: 0}
   playVsPlayerButton: {fileID: 0}
   playOtherModeButton: {fileID: 0}
---- !u!114 &11470930
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 131130}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09546b7fbb316ed499ee70a23468d1eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  duration: .25
-  magnitude: .100000001
 --- !u!114 &11479946
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -144,34 +116,6 @@ MonoBehaviour:
   musicImg: {fileID: 0}
   musicOnSpr: {fileID: 21300000, guid: 660d54d35a61f2844b7a669d712e52d4, type: 3}
   musicOffSpr: {fileID: 21300004, guid: 660d54d35a61f2844b7a669d712e52d4, type: 3}
---- !u!114 &11482682
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 131130}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b342856ec1bcda4b83504c6a7a4fa4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11485806
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 131130}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b787e8f12b0e6442a89e8abcf536973, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blueArcher: {fileID: 0}
-  greenArcher: {fileID: 0}
-  blueScoreText: {fileID: 0}
-  greenScoreText: {fileID: 0}
-  blueScore: 0
-  greenScore: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

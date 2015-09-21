@@ -50,7 +50,7 @@ public class MenuLevelChooser : MonoBehaviour {
 
     public void ChoseLevel(int sceneId)
     {
-        for (int i = 0; i < levelDB.levels.Count - 1; i++)
+        for (int i = 0; i < levelDB.levels.Count; i++)
         {
             if (levelDB.levels[i].id == sceneId)
             {
