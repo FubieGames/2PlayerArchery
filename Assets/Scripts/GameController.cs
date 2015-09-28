@@ -15,6 +15,11 @@ public class GameController : MonoBehaviour {
     public int blueScore;
     public int greenScore;
 
+    [Header("Winner")]
+    public GameObject winnerTable;
+    public Text winnerText;
+    public Text scoreText;
+
     LaunchSettings launchSettings;
 
     void Start()
@@ -56,16 +61,27 @@ public class GameController : MonoBehaviour {
         if (blueScore == 5 && greenScore != 5)
         {
             blueArcher.winner = true;
+            winnerTable.SetActive(true);
+            winnerText.text = blueArcher.playerName;
+            winnerText.color = blueArcher.playerColor;
         }
 
         if (blueScore != 5 && greenScore == 5)
         {
             greenArcher.winner = true;
+            winnerTable.SetActive(true);
+            winnerText.text = greenArcher.playerName;
+            winnerText.color = greenArcher.playerColor;
         }
 
         if (blueScore == 5 && greenScore == 5)
         {
-            print("Nobody Wins!");
+            greenArcher.winner = true;
+            winnerTable.SetActive(true);
+            winnerText.text = "Nobody";
+            winnerText.color = Color.black;
         }
+
+        scoreText.text = blueScore + " - " + greenScore;
     }
 }

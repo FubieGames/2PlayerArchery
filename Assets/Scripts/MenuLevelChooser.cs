@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using UnityStandardAssets.ImageEffects;
 
 public class MenuLevelChooser : MonoBehaviour {
 
@@ -60,8 +59,6 @@ public class MenuLevelChooser : MonoBehaviour {
         }
 
         SetVars();//Settng buttons and texts appropriatly
-
-        //TODO: close panel;
     }
 
     void SetVars()
